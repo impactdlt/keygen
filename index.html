@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Key Generator</title>
+    <link href="./css/main.css" type="text/css" rel="stylesheet">
+    <script src="./js/modernizr.min.js" type="text/javascript"></script>
+    <script src="./js/zxcvbn.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Impact DLT Key-Gen</h1>
+        <section>
+            <input type="seed" name="seed" id="seed" placeholder="SEED">
+        </section>
+        <section>
+            <!-- <label for="password">Enter password</label> -->
+            <input type="password" name="password" id="password" placeholder="PASSWORD">
+            <meter max="4" id="password-strength-meter"></meter>
+            <p id="password-strength-text"></p>
+        </section>
+        <button id="generateKey">Generate Encrypted Key</button>
+        <p id="key"></p>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
