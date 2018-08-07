@@ -64,7 +64,7 @@ function addRandomStrings() {
 }
 
 button.addEventListener("click", function() {
-    addRandomStrings();
+    // addRandomStrings();
     encryptKey(document.getElementById('seed').value, document.getElementById('password').value);
 });
 
@@ -96,23 +96,26 @@ password.addEventListener('input', function() {
     }
 });
 
-
 function encryptKey(seed, key) {
-    // let cipher = bAES.createCipher('aes-256-cbc', key)
-    // let enc = (cipher.update(seed, 'utf8', 'base64') + cipher.final('base64')).replace(/\//g,'_').replace(/\+/g,'-')
-    // console.log('enc:', enc)
-
     console.log('seed:', seed);
     console.log('key:', key);
+
+    // let cipher = createCipher('aes-256-cbc', key)
+    // let enc = (cipher.update(seed, 'utf8', 'base64') + cipher.final('base64')).replace(/\//g,'_').replace(/\+/g,'-')
+    // console.log('enc:', enc)
 
     triplesec.encrypt ({
         data:          new triplesec.Buffer(seed),
         key:           new triplesec.Buffer(key),
-        progress_hook: function (obj) { /* ... */ }
+        progress_hook: function (obj) { /** Processing */ }
     }, function(err, buff) {
         if (! err) {
             var ciphertext = buff.toString('hex');
+            console.log('ciphertext:', ciphertext);
+            // (ciphertext.update(seed, 'utf8', 'base64') + cipher.final('base64')).replace(/\//g,'_').replace(/\+/g,'-')
+            keyDisplay.textContent = ciphertext;
+            // DO_e9X3p6YUaqXFVQlqxojw6uxHMNnqdOHmu-kKym-aqymHTRAtiAmyXrFFcAV-u04swq2diGva35796Dpr6SpRE8LpI1OTEKUWVq-azSEj2S9fZQepWONr3eJA9oJYe
         }
-        console.log('buff:', buff);
+        // console.log('buff:', buff);
     });
 }
