@@ -63,16 +63,9 @@ function addRandomStrings() {
     keyDisplay.textContent = string;
 }
 
-
-function encryptKey(seed, key) {
-    let cipher = bAES.createCipher('aes-256-cbc', key)
-    let enc = (cipher.update(seed, 'utf8', 'base64') + cipher.final('base64')).replace(/\//g,'_').replace(/\+/g,'-')
-    console.log('enc:', enc)
-}
-
-
 button.addEventListener("click", function() {
     addRandomStrings();
+    encryptKey(document.getElementById('seed').value, document.getElementById('password').value);
 });
 
 var strength = {
@@ -102,3 +95,24 @@ password.addEventListener('input', function() {
         text.innerHTML = "";
     }
 });
+
+
+function encryptKey(seed, key) {
+    // let cipher = bAES.createCipher('aes-256-cbc', key)
+    // let enc = (cipher.update(seed, 'utf8', 'base64') + cipher.final('base64')).replace(/\//g,'_').replace(/\+/g,'-')
+    // console.log('enc:', enc)
+
+    console.log('seed:', seed);
+    console.log('key:', key);
+
+    triplesec.encrypt ({
+        data:          new triplesec.Buffer(seed),
+        key:           new triplesec.Buffer(key),
+        progress_hook: function (obj) { /* ... */ }
+    }, function(err, buff) {
+        if (! err) {
+            var ciphertext = buff.toString('hex');
+        }
+        console.log('buff:', buff);
+    });
+}
