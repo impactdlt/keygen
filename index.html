@@ -9,11 +9,11 @@
     <div id="container">
         <h1>Impact DLT Key-Gen</h1>
         <section>
-            <input type="seed" name="seed" id="seed" placeholder="SEED">
+            <input type="seed" name="seed" id="seed" placeholder="SEED" value="ZJIXJFZINTLRCHUDUPBCWCSGUHQRXXUMKOBAXMOSUTV9LYRICOVGJZZIBFN9PFLEJITMIKJGKUREJKS9I">
         </section>
         <section>
             <!-- <label for="password">Enter password</label> -->
-            <input type="password" name="password" id="password" placeholder="PASSWORD">
+            <input type="password" name="password" id="password" placeholder="PASSWORD" value="qwerty">
             <meter max="4" id="password-strength-meter"></meter>
             <p id="password-strength-text"></p>
         </section>
@@ -21,7 +21,10 @@
         <p id="key"></p>
     </div>
     <script src="./js/main.js"></script>
-    <script src="./js/triplesec-3.0.14-min.js"></script>
+    <!-- <script src="./js/triplesec-3.0.14-min.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
 </body>
 </html>

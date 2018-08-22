@@ -9,7 +9,7 @@ body {
 #container {
     background: #262626;
     max-width: 50rem;
-    margin: 10% auto;
+    margin: 5% auto;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
     color: #c1c1c1;
 }
