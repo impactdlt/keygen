@@ -1,0 +1,31 @@
+{
+    "name": "keygen",
+    "version": "1.0.0",
+    "description": "Key Generator module",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/impactdlt/keygen.git"
+    },
+    "keywords": [
+        "keygen",
+        "impactdlt",
+        "acyclic",
+        "encrypt",
+        "aes",
+        "anistark"
+    ],
+    "author": "Kumar Anirudha <anirudhastark@yahoo.com> (http://anirudha.org)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/impactdlt/keygen/issues"
+    },
+    "homepage": "https://github.com/impactdlt/keygen#readme",
+    "dependencies": {
+        "browserify-aes": "^1.2.0"
+    }
+}

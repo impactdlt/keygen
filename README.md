@@ -1,9 +1,27 @@
 # KEYGEN
 
+This is a command line offline encrypted key generator.
 
-##
+## SETUP `npm install`
 
+## RUN
 
-https://github.com/ricmoo/aes-js
+You must generate a random 81 character seed using only A-Z and the number 9. It is imperative that your seed be an 81 character random assortment of A-Z and 9.
 
-https://gist.github.com/umidjons/8bd2cc2a12eaa8d583c9f292b99371bd
+### Create SEED on Linux Terminal
+```
+cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
+```
+
+### Create SEED on Mac OsX Terminal
+```
+cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
+```
+
+### [Create SEED offline on browser](https://impactdlt.github.io/seedgen/)
+
+Now, you've a SEED.
+
+### Run this app on your local system `node app.js` or `npm start`
+
+Enter your SEED and KEY when asked. The return will be your encrypted key.
