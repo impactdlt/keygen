@@ -107,16 +107,18 @@ function encryptKey(seed, key) {
 
     // console.log(CryptoJS);
 
-    var textBytes = aesjs.utils.utf8.toBytes(key);
-    console.log('textBytes:', textBytes);
-    // var key_128 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    // // // // // // // //
+    // var textBytes = aesjs.utils.utf8.toBytes(key);
+    // console.log('textBytes:', textBytes);
+    // // var key_128 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    // //
+    // iv = new Uint8Array(16)
     //
-    iv = new Uint8Array(16)
-
-    console.log('iv:', iv);
-    //
-    var aesCbc = new aesjs.ModeOfOperation.cbc(key, iv);
-    console.log('aesCbc:', aesCbc);
+    // console.log('iv:', iv);
+    // //
+    // var aesCbc = new aesjs.ModeOfOperation.cbc(key, iv);
+    // console.log('aesCbc:', aesCbc);
+    // // // // // // // //
 
     // var ciphertext = CryptoJS.AES.encrypt('aes-256-cbc', key).toString();
     //
