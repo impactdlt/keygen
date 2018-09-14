@@ -26,6 +26,7 @@
     },
     "homepage": "https://github.com/impactdlt/keygen#readme",
     "dependencies": {
-        "browserify-aes": "^1.2.0"
+        "browserify-aes": "^1.2.0",
+        "figlet": "^1.2.0"
     }
 }
