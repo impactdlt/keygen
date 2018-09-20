@@ -1,6 +1,8 @@
-# KEYGEN
+# [KEYGEN](https://impactdlt.github.io/keygen/)
 
-This is a command line offline encrypted key generator.
+
+
+This is a command line offline encrypted key generator. Follow the instructions below to run the script.
 
 ## SETUP `npm install`
 
@@ -24,4 +26,4 @@ Now, you've a SEED.
 
 ### Run this app on your local system `node app.js` or `npm start`
 
-Enter your SEED and KEY when asked. The return will be your encrypted key.
+Enter your SEED and Password when asked for. The script will return your encrypted key.
