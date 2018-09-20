@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/impactdlt/keygen.svg?branch=master)](https://travis-ci.org/impactdlt/keygen)
 <a href="https://david-dm.org/impactdlt/keygen"><img src="https://david-dm.org/impactdlt/keygen.svg" alt="Dependency Status"></a>
-[![Coverage Status](https://coveralls.io/repos/github/impactdlt/keygen/badge.svg)](https://coveralls.io/github/impactdlt/keygen)
+[![Coverage Status](https://coveralls.io/repos/github/impactdlt/keygen/badge.svg?branch=master)](https://coveralls.io/github/impactdlt/keygen?branch=master)
 
 This is a command line offline encrypted key generator. Follow the instructions below to run the script.
 
