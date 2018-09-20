@@ -4,7 +4,7 @@
 <a href="https://david-dm.org/impactdlt/keygen"><img src="https://david-dm.org/impactdlt/keygen.svg" alt="Dependency Status"></a>
 [![Coverage Status](https://coveralls.io/repos/github/impactdlt/keygen/badge.svg?branch=master)](https://coveralls.io/github/impactdlt/keygen?branch=master)
 
-This is a command line offline encrypted key generator. Follow the instructions below to run the script.
+This is a command line offline encrypted key generator, written in [NodeJs](https://nodejs.org/). Follow the instructions below to run the script.
 
 ## SETUP `npm install`
 
@@ -29,3 +29,5 @@ Now, you've a SEED.
 ### Run this app on your local system `node app.js` or `npm start`
 
 Enter your SEED and Password when asked for. The script will return your encrypted key.
+
+**Please note the above script is written for unix based system. If you are using windows and faced any issue, feel free to report the issue by clicking [here](https://github.com/impactdlt/keygen/issues/new?template=bug_report.md).**
