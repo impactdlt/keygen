@@ -29,7 +29,7 @@ To generate address use the unique SEED that you must have generated on the last
 The encrypted key encrypts the SEED that you generated the address with a master password.
 This password is known only to you and no one else. Do NOT share the password with anyone else.
 
-### [Create Encrypted Key]()
+### [Create Encrypted Key](https://github.com/impactdlt/keygen)
 
 
 **This key can now be configured into the [NFC wallet](https://impactdlt.com/products/iotacoins).**
