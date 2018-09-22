@@ -30,4 +30,4 @@ Now, you've a SEED.
 
 Enter your SEED and Password when asked for. The script will return your encrypted key.
 
-**Please note the above script is written for unix based system. If you are using windows and faced any issue, feel free to report the issue by clicking [here](https://github.com/impactdlt/keygen/issues/new?template=bug_report.md).**
+** **Please note the above script is written for unix based system. If you are using windows and faced any issue, feel free to report the issue by clicking [here](https://github.com/impactdlt/keygen/issues/new?template=bug_report.md).**
