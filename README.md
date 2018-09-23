@@ -4,9 +4,13 @@
 <a href="https://david-dm.org/impactdlt/keygen"><img src="https://david-dm.org/impactdlt/keygen.svg" alt="Dependency Status"></a>
 [![Coverage Status](https://coveralls.io/repos/github/impactdlt/keygen/badge.svg?branch=master)](https://coveralls.io/github/impactdlt/keygen?branch=master)
 
-This is a command line offline encrypted key generator, written in [NodeJs](https://nodejs.org/). Follow the instructions below to run the script.
+This is a command line offline encrypted SEED generator, written in [NodeJs](https://nodejs.org/). 
+The instructions below will create an IOTA SEED, then the script app.js will encrypt the SEED with your password and AES256bit encryption. 
+Once you have encrypted the SEED, copy the SEED to your configuration page on ImpactDLT for your IOTA coin. 
 
 ## SETUP `npm install`
+
+If you don't already have npm. 
 
 ## RUN
 
