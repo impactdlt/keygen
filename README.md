@@ -57,4 +57,4 @@ Enter your SEED and Password when asked for. The script will return your encrypt
 Copy encrypted SEED to ImpactDLT Coin Configuration Page.
 Be sure to copy the ENCRYPTED SEED and the corresponding IOTA DEPOSIT ADDRESS to configuration page. 
 
-** **Please note the above script is written for unix based system. If you are using windows and faced any issue, feel free to report the issue by clicking [here](https://github.com/impactdlt/keygen/issues/new?template=bug_report.md).**
+** **Please note the above script is written for unix based system. If you are using windows you must download NodeJS and use nodejs command prompt. If you have any issue, feel free to report the issue by clicking [here](https://github.com/impactdlt/keygen/issues/new?template=bug_report.md).**
