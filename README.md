@@ -36,7 +36,7 @@ Every SEED can generate a deposit address which corresponds to that SEED.
 Each IOTA coin wallet needs an encrypted SEED and it's corresponding IOTA deposit address.
 Do not mix up different SEEDs with different deposit addresses. 
 
-### [Create Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
+### [Create IOTA Deposit Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
 This tool will create an IOTA Deposit Address using the IOTA SEED. 
 Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page. 
 
