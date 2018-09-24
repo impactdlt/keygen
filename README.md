@@ -42,9 +42,11 @@ Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page.
 This script will encrypt your IOTA SEED with a master password and AES256bit encryption.
 This password is known only to you and no one else.
 
-### Download Repo to Local Disk
+### Download Repository to Local Disk
+Open command prompt (if using NodeJS: "node.js command prompt")
+Navigate to folder that holds the repository. 
 
-### Setup: `npm install` inside of repo folder to install dependencies for app.js script
+### Setup: `npm install` to install dependencies for app.js script
 
 ### Run: `node app.js` or `npm start` to run script.
 
