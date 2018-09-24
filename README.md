@@ -11,6 +11,7 @@ The instructions will help to generate an IOTA SEED, then generate an IOTA depos
 This process requires you to have either NodeJS installed or a Linux/MacOsX system. 
 Follow the instructions below to run the script.
 
+
 ## Step 1: Generate IOTA SEED (skip if you already have one)
 You must generate a random 81 character seed using only A-Z and the number 9. It is imperative that your seed be an 81 character random assortment of A-Z and 9.
 
@@ -29,6 +30,7 @@ cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 Please keep the IOTA SEED private, if someone else obtains your SEED,  they can access your funds. 
 You will need to use this SEED to generate deposit address and for the encryption process. 
 
+
 ## Step 2: Generate IOTA Deposit Address
 Every SEED can generate a deposit address which corresponds to that SEED.
 Each IOTA coin wallet needs an encrypted SEED and it's corresponding IOTA deposit address.
@@ -37,6 +39,7 @@ Do not mix up different SEEDs with different deposit addresses.
 ### [Create Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
 This tool will create an IOTA Deposit Address using the IOTA SEED. 
 Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page. 
+
 
 ## Step 3: Encrypting the SEED
 This script will encrypt your IOTA SEED with a master password and AES256bit encryption.
