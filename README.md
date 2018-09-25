@@ -17,7 +17,7 @@ This process requires you to have either NodeJS installed or a Linux/MacOsX syst
 Follow the instructions below to run the script.
 
 ## Step 1: Generate IOTA Deposit Address using your SEED
-### If you don't have a SEED, follow link below and click on "Generate SEED"
+### If you don't have a SEED, follow link below and click "Generate SEED"
 ### [Create IOTA Deposit Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
 This tool will create an IOTA Deposit Address using the IOTA SEED and can also create a SEED. 
 
