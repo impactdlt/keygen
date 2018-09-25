@@ -37,9 +37,9 @@ Navigate to folder that holds the repository.
 
 Unzip file if you downloaded the file as a zip file. 
 
-### Setup: `npm install` to install dependencies for app.js script
+### Setup: `'npm install'` to install dependencies for app.js script
 
-### Run: `npm start` or `node app.js` to run script.
+### Run: `'npm start'` or `'node app.js'` to run script.
 
 Enter your SEED (same one as Step 1) and Password when prompted. 
 
