@@ -23,7 +23,7 @@ This tool will create an IOTA Deposit Address using the IOTA SEED and can also c
 
 Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page. 
 
-Copy IOTA SEED to be used in step 2. 
+The IOTA SEED is to be used in step 2, do not close the page. 
 
 ## Step 2: Encrypting the SEED
 This script will encrypt your IOTA SEED with a master password and AES256bit encryption.
