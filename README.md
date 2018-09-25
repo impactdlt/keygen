@@ -6,7 +6,7 @@
 
 # Manual Configuration of IOTA Coin NFC Wallet
 ## www.ImpactDLT.com
-## These instructions will creat an IOTA deposit address, and encrypt your IOTA SEED.
+## These instructions will create an IOTA deposit address, and encrypt your IOTA SEED.
 ### Everything is completed on your system, please make sure it is secure. 
 This is a offline command line script written in [NodeJs](https://nodejs.org/).
 
@@ -19,7 +19,7 @@ Follow the instructions below to run the script.
 ## Step 1: Generate IOTA Deposit Address using your SEED
 ### If you don't have a SEED, follow link below and click on "Generate SEED"
 ### [Create IOTA Deposit Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
-This tool will create an IOTA Deposit Address using the IOTA SEED and also create a SEED. 
+This tool will create an IOTA Deposit Address using the IOTA SEED and can also create a SEED. 
 
 Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page. 
 
