@@ -17,14 +17,13 @@ This process requires you to have either NodeJS installed or a Linux/MacOsX syst
 Follow the instructions below to run the script.
 
 ## Step 1: Generate IOTA Deposit Address using your SEED
-### If you don't have a SEED, follow link below and click "Generate SEED"
-This tool will create an IOTA Deposit Address using the IOTA SEED and can also create a SEED. 
+### This tool will create an IOTA Deposit Address using the IOTA SEED and can also generate a SEED. 
 
 ### [Create IOTA Deposit Address offline on browser](https://impactdlt.github.io/IOTA-Paper-Wallet/)
 
-Copy and paste IOTA deposit address to ImpactDLT Coin Configuration Page. 
+Save IOTA deposit address for step 3. 
 
-The IOTA SEED is to be used in step 2, do not close the page. 
+If you generated an IOTA SEED keep it safe as it is needed for step 2, do not close the page. 
 
 ## Step 2: Encrypting the SEED
 This script will encrypt your IOTA SEED with a master password and AES256bit encryption.
@@ -40,13 +39,19 @@ Unzip file if you downloaded the file as a zip file.
 
 ### Setup: `npm install` to install dependencies for app.js script
 
-### Run: `node app.js` or `npm start` to run script.
+### Run: `npm start` or `node app.js` to run script.
 
 Enter your SEED (same one as Step 1) and Password when prompted. 
 
-The script will return your encrypted SEED.
+The script will return your encrypted SEED, save for next step. 
 
-Copy encrypted SEED to ImpactDLT Coin Configuration Page.
+## Step 3: Input IOTA Deposit Address and Encrypted SEED to ImpactDLT Coin Configuration Page
+
+Go back to the IOTA Coin Manual Configuration Page. 
+
+Copy and paste your IOTA Deposit Address and the corresponding Encrypted SEED. 
+
+Repeat steps if manually configuring multiple coins.
 
 Be sure to copy the ENCRYPTED SEED and the corresponding IOTA DEPOSIT ADDRESS to configuration page. 
 
