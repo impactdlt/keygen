@@ -49,7 +49,7 @@ The script will return your encrypted SEED, save for next step.
 
 Go back to the IOTA Coin Manual Configuration Page. 
 
-Copy and paste your IOTA Deposit Address and the corresponding Encrypted SEED. 
+Copy and paste your IOTA Deposit Address (Step 1) and the corresponding Encrypted SEED (Step 2). 
 
 Repeat steps if manually configuring multiple coins.
 
